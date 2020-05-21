@@ -9,6 +9,21 @@ package TPn2_objects;
  *
  * @author Esteban DAlbano
  */
-public class Socio {
+public class Socio extends Cliente {
+    
+    //atributos
+    private Integer id;
+    private Tarjeta tarjeta;
+    
+    public Socio(Integer i,Integer numD, String nom, String ap) {
+        super(i,numD, nom, ap);
+        
+        
+            
+       }
+        
+    public void alquilar(){
+    }
+    
     
 }

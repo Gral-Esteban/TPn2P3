@@ -9,6 +9,10 @@ package TPn2_objects;
  *
  * @author Esteban DAlbano
  */
-public class Usuario {
+public class Usuario extends Cliente {
+    
+    public Usuario(Integer i,Integer numD, String nom, String ap) {
+        super(i,numD, nom, ap);
+    }
     
 }

@@ -11,4 +11,38 @@ package TPn2_objects;
  */
 public class Catalogo {
     
+    //atributos
+    private Integer Cantidad_peliculas;
+    
+    
+    //Getter and Setter
+
+    public Integer getCantidad_peliculas() {
+        return Cantidad_peliculas;
+    }
+
+    public void setCantidad_peliculas(Integer Cantidad_peliculas) {
+        this.Cantidad_peliculas = Cantidad_peliculas;
+    }
+
+
+    
+    //metodos
+    
+    public void mostrar_listado_por_genero(){
+    
+    }
+
+    public void mostrar_listado_por_fecha_lanzamiento(){
+    
+    }
+    
+    public void mostrar_listado_por_duracion(){
+    
+    }
+
+    public void mostrar_listado_por_disponibilidad(){
+    
+    }
+    
 }

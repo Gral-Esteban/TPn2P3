@@ -11,4 +11,26 @@ package TPn2_objects;
  */
 public class Pedido {
     
+     //atributos
+    private Integer idPelicula;
+    private boolean tipo;
+    
+    
+    //metodos
+    public Integer getIdPelicula() {
+        return idPelicula;
+    }
+
+    public void setIdPelicula(Integer idPelicula) {
+        this.idPelicula = idPelicula;
+    }
+
+    public boolean isTipo() {
+        return tipo;
+    }
+
+    public void setTipo(boolean tipo) {
+        this.tipo = tipo;
+    }
+    
 }
