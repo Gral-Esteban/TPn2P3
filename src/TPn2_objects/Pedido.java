@@ -33,4 +33,11 @@ public class Pedido {
         this.tipo = tipo;
     }
     
+    public void confirmar_pedido(){
+        
+    }
+    
+    public void cancelar_pedido(){
+        
+    }
 }
